@@ -6,6 +6,6 @@ locale: "sv"
 permalink: "/sv/"
 
 banner_title: "Hej, jag heter Xanthi"
-banner_text1: "This website shows the paintings I created for the past 20 years."
-banner_text2: "Contains portraits, landscapes and much more."
+banner_text1: "DENNA WEBBPLATS VISAR MÅLNINGARNA JAG SKAPAT UNDER DE SENASTE 20 ÅREN."
+banner_text2: "INNEHÅLLER PORTRÄTT, LANDSKAP OCH MYCKET MER."
 ---
