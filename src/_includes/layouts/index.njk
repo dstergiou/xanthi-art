@@ -1,44 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
-  <head>
-    <title>Xanthis Art</title>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-    <link rel="stylesheet" href="/assets/css/main.css"/>
-    <noscript><link rel="stylesheet" href="/assets/css/noscript.css"/></noscript>
-  </head>
+  {% include "components/head.njk" %}
   <body
     class="is-preload">
     <!-- Wrapper -->
-    <div
-      id="wrapper">
-      <!-- Header -->
-      <header id="header" class="alt">
-        <a href="/" class="logo">
-          <strong>{{ top_left_site_banner1 }}</strong>
-          <span>{{ top_left_site_banner2 }}</span>
-        </a>
-        <nav>
-          <a href="#menu">{{ menu_link }}</a>
-        </nav>
-      </header>
-      <!-- Menu -->
-      <nav id="menu">
-        <ul class="links">
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="landing.html">Landing</a>
-          </li>
-          <li>
-            <a href="generic.html">Generic</a>
-          </li>
-          <li>
-            <a href="elements.html">Elements</a>
-          </li>
-        </ul>
-      </nav>
+    <div id="wrapper">
+      {% include "components/nav.njk" %}
       <!-- Banner -->
       <section id="banner" class="major">
         <div class="inner">
@@ -125,53 +92,8 @@
           </article>
         </section>
       </div>
-      <!-- Footer -->
-      <footer id="footer">
-        <div class="inner">
-          <form action="#">
-            <div class="row gtr-uniform">
-              <div class="col-3">
-                <select name="lang" id="lang">
-                  <option value="en">English</option>
-                  <option value="se">Swedish</option>
-                  <option value="el">Greek</option>
-                </select>
-              </div>
-            </div>
-          </form>
-          <ul class="icons">
-            <li>
-              <a href="#" class="icon brands alt fa-twitter">
-                <span class="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="icon brands alt fa-facebook-f">
-                <span class="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/xanthi_toutounzoglou_art" class="icon brands alt fa-instagram">
-                <span class="label">Instagram</span>
-              </a>
-            </li>
-          </ul>
-          <ul class="copyright">
-            <li>&copy; 2023</li>
-            <li>Design:
-              <a href="#">@dstergiou</a>
-            </li>
-          </ul>
-        </div>
-      </footer>
+      {% include "components/footer.njk" %}
     </div>
-    <!-- Scripts -->
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/js/jquery.scrolly.min.js"></script>
-    <script src="/assets/js/jquery.scrollex.min.js"></script>
-    <script src="/assets/js/browser.min.js"></script>
-    <script src="/assets/js/breakpoints.min.js"></script>
-    <script src="/assets/js/util.js"></script>
-    <script src="/assets/js/main.js"></script>
+    {% include "components/js.njk" %}
   </body>
 </html>

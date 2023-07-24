@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+  {% include "components/head.njk" %}
+  <body
+    class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      {% include "components/nav.njk" %}
+      <!-- Main -->
+      <div
+        id="main" class="alt">
+        <!-- One -->
+        <section id="one">
+          <div class="inner">
+            <header class="major">
+              <h1>{{ title }}</h1>
+            </header>
+            <span class="image left"><img src="/assets/images/xanthi.webp" alt=""/>
+            </span>
+            {{ content | safe }}
+          </div>
+        </section>
+      </div>
+      {% include "components/footer.njk" %}
+    </div>
+    {% include "components/js.njk" %}
+  </body>
+</html>

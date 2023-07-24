@@ -1,0 +1,27 @@
+<!-- Header -->
+<header id="header" class="alt">
+  <a href="/" class="logo">
+    <strong>{{ site.top_left_site_banner1 }}</strong>
+    <span>{{ site.top_left_site_banner2 }}</span>
+  </a>
+  <nav>
+    <a href="/en">EN</a>
+    /
+    <a href="/sv">SV</a>
+    /
+    <a href="/el">ΕΛ</a>
+    |
+    <a href="#menu">{{ site[locale].menu_title }}</a>
+  </nav>
+</header>
+<!-- Menu -->
+<nav id="menu">
+  <ul class="links">
+    <li>
+      <a href="/{{ page.lang }}/">{{ site[locale].menu_home }}</a>
+    </li>
+    <li>
+      <a href="/{{ page.lang }}/about">{{ site[locale].menu_about }}</a>
+    </li>
+  </ul>
+</nav>
