@@ -1,6 +1,6 @@
 ---
 layout: "layouts/index.njk"
-title: "Index"
+title: "Xanthi Art | Home"
 lang: "en"
 locale: "en"
 permalink: "/en/"

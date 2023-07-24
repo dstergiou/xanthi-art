@@ -1,6 +1,6 @@
 ---
 layout: "layouts/index.njk"
-title: "Index"
+title: "Xanthi Art | Hem"
 lang: "sv"
 locale: "sv"
 permalink: "/sv/"

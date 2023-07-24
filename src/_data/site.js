@@ -1,18 +1,4 @@
 module.exports = {
-  langs: [
-    {
-      label: "english",
-      code: "en",
-    },
-    {
-      label: "svenska",
-      code: "se",
-    },
-    {
-      label: "ελληνικά",
-      code: "gr",
-    },
-  ],
   top_left_site_banner1: "Xanthi Art",
   top_left_site_banner2: "By Xanthi",
   en: {

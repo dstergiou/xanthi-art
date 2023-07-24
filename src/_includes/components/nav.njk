@@ -20,8 +20,13 @@
     <li>
       <a href="/{{ page.lang }}/">{{ site[locale].menu_home }}</a>
     </li>
-    <li>
-      <a href="/{{ page.lang }}/about">{{ site[locale].menu_about }}</a>
-    </li>
-  </ul>
-</nav>
+    {% for item in art[locale] %}
+      <li>
+        <a href="{{ item.url }}">{{ item.name }}
+        </li>
+      {% endfor %}
+      <li>
+        <a href="/{{ page.lang }}/about">{{ site[locale].menu_about }}</a>
+      </li>
+    </ul>
+  </nav>

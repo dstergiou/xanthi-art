@@ -1,6 +1,6 @@
 ---
 layout: "layouts/index.njk"
-title: "Αρχική"
+title: "Xanthi Art | Αρχική σελίδα"
 lang: "el"
 locale: "el"
 permalink: "/el/"
