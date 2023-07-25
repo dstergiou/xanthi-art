@@ -4033,3 +4033,7 @@ body.is-menu-visible #menu .inner {
   opacity: 1;
   visibility: visible;
 }
+
+.gallery-image {
+  width: 10rem;
+}
