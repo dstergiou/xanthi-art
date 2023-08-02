@@ -4034,6 +4034,24 @@ body.is-menu-visible #menu .inner {
   visibility: visible;
 }
 
-.gallery-image {
-  width: 10rem;
+/* DS - Added to support the image gallery */
+.image-grid {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 5px;
+}
+
+.grid-item {
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.grid-item img {
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
 }
