@@ -20,28 +20,28 @@ intro:
   All of the paintings from the series “23 Days” are inspired by that period.<br/>
 collection_images:
   - name: princess
-    img: /assets/images/23days/my_princess.jpg
+    img: assets/images/23days/my_princess.jpg
     desc: My princess
   - name: dont_leave
-    img: /assets/images/23days/dont_leave.jpg
+    img: assets/images/23days/dont_leave.jpg
     desc: Don't leave
   - name: come_along
-    img: /assets/images/23days/i_didnt_want_to_come_along.jpg
+    img: assets/images/23days/i_didnt_want_to_come_along.jpg
     desc: I didn't want to come along
   - name: ballerina
-    img: /assets/images/23days/the_ballerina.jpg
+    img: assets/images/23days/the_ballerina.jpg
     desc: The ballerina
   - name: wish
-    img: /assets/images/23days/the_wish.jpg
+    img: assets/images/23days/the_wish.jpg
     desc: The wish
   - name: wishing_star
-    img: /assets/images/23days/the_wishing_star.jpg
+    img: assets/images/23days/the_wishing_star.jpg
     desc: The wishing star
-  - name: /assets/images/23days/waiting_for_you.jpg
-    img: /assets/images/23days/waiting_for_you.jpg
+  - name: waiting_for_you
+    img: assets/images/23days/waiting_for_you.jpg
     desc: Waiting for you
   - name: waiting_for
-    img: /assets/images/23days/what_are_you_waiting_for.jpg
+    img: assets/images/23days/what_are_you_waiting_for.jpg
     desc: What are you waiting for?
 ---
 

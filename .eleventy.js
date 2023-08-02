@@ -1,6 +1,35 @@
 const Image = require("@11ty/eleventy-img");
 const { EleventyI18nPlugin } = require("@11ty/eleventy");
 
+const imageShortCode = async (
+  src,
+  alt,
+  className = undefined,
+  widths = [400, 800, 1280],
+  formats = ["webp", "jpeg"],
+  sizes = "100vw"
+) => {
+  const imageMetadata = await Image(src, {
+    hashLength: 10,
+    filenameFormat: function (hash, src, width, format, options) {
+      return `${hash}-${width}.${format}`;
+    },
+    widths: [...widths, null],
+    formats: [...formats, null],
+    outputDir: "_site/assets/images",
+    urlPath: "/assets/images",
+  });
+
+  const imageAttributes = {
+    alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
+  };
+
+  return Image.generateHTML(imageMetadata, imageAttributes);
+};
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
 
@@ -20,6 +49,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("art_sv", function (collection) {
     return collection.getFilteredByGlob("./src/sv/art/*.md");
   });
+
+  eleventyConfig.addShortcode("image", imageShortCode);
 
   return {
     passthroughFileCopy: true,

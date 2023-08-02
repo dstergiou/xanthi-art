@@ -30,8 +30,10 @@
         <section id="two" class="spotlights">
           <div class="gallery inner">
             {% for item in collection_images %}
-              <a href="{{ item.img }}" data-lightbox="{{ collection }}" data-title="{{ item.desc }}" class="image">
-                <img src="{{ item.img }}" data-position="center"/>
+              <a
+                href="{{ item.img }}" data-lightbox="{{ collection }}" data-title="{{ item.desc }}" class="image">
+                {# <img src="{{ item.img }}" data-position="center" alt="{{ item.desc }}"/> #}
+                {% image item.img , item.desc %}
               </a>
             {% endfor %}
           </div>
