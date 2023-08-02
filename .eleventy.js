@@ -1,18 +1,21 @@
 const Image = require("@11ty/eleventy-img");
 const { EleventyI18nPlugin } = require("@11ty/eleventy");
+const path = require("path");
 
 const imageShortCode = async (
   src,
   alt,
   className = undefined,
-  widths = [200, 400, 800, 1280],
+  widths = [300, 400, 600, 800, 1600],
   formats = ["webp", "jpeg"],
   sizes = "100vw"
 ) => {
   const imageMetadata = await Image(src, {
-    hashLength: 10,
     filenameFormat: function (hash, src, width, format, options) {
-      return `${hash}-${width}.${format}`;
+      const extension = path.extname(src);
+      const name = path.basename(src, extension);
+
+      return `${name}-${width}.${format}`;
     },
     widths: [...widths, null],
     formats: [...formats, null],
