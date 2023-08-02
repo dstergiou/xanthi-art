@@ -5,7 +5,7 @@ const imageShortCode = async (
   src,
   alt,
   className = undefined,
-  widths = [400, 800, 1280],
+  widths = [200, 400, 800, 1280],
   formats = ["webp", "jpeg"],
   sizes = "100vw"
 ) => {
