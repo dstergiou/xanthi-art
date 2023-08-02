@@ -4057,12 +4057,12 @@ body.is-menu-visible #menu .inner {
 }
 
 .gallery {
-  width: inherit;
+  width: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, 300px);
   gap: 10px;
   margin: 50px 100px;
-  justify-content: center;
+  padding: 0.1em 0 2em 0;
 }
 
 .gallery img {
@@ -4079,7 +4079,8 @@ body.is-menu-visible #menu .inner {
   }
 
   .gallery img {
-    width: 95%;
+    width: 100%;
     padding: 0.2rem;
+    justify-content: center;
   }
 }
