@@ -5,12 +5,14 @@
     <span>{{ site.top_left_site_banner2 }}</span>
   </a>
   <nav>
-    <a href="/en">EN</a>
-    /
-    <a href="/sv">SV</a>
-    /
-    <a href="/el">ΕΛ</a>
-    |
+    {% if site.language_menu %}
+      <a href="/en">EN</a>
+      /
+      <a href="/sv">SV</a>
+      /
+      <a href="/el">ΕΛ</a>
+      |
+    {% endif %}
     <a href="#menu">{{ site[locale].menu_title }}</a>
   </nav>
 </header>

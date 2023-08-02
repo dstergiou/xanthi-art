@@ -16,4 +16,5 @@ module.exports = {
     menu_home: "Αρχικη",
     menu_about: "Σχετικα με μενα",
   },
+  language_menu: false,
 };

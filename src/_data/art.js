@@ -3,7 +3,7 @@ module.exports = {
     {
       name: "23 Days",
       desc: "The period that I had to stay away from my children, 3 and 6 years old, due to a health issue.",
-      url: "art/23days",
+      url: "/en/art/23days",
       image: "/assets/images/23days/the_ballerina.jpg",
     },
     {
