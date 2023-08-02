@@ -3,7 +3,7 @@ layout: "layouts/gallery.njk"
 title: "Collection 02"
 lang: "en"
 locale: "en"
-image: "/assets/images/collection02.jpg"
+banner_image: "assets/images/collection02.jpg"
 ---
 
 <a href="/assets/images/collection01.jpg" class="image" data-lightbox="collection" data-title="A super painting">

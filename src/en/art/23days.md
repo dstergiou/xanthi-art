@@ -4,7 +4,7 @@ title: "23 Days"
 collection: "23days"
 lang: "en"
 locale: "en"
-image: "/assets/images/23days/the_ballerina.jpg"
+banner_image: assets/images/23days/the_ballerina.jpg
 desc: "The period that I had to stay away from my children, 3 and 6 years old, due to a health issue."
 intro:
   23 Days, so long was the period that I had to stay away from my children, 3 and 6 years old, due to a health issue.
