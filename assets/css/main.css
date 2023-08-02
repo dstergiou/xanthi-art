@@ -4055,3 +4055,31 @@ body.is-menu-visible #menu .inner {
   height: 80%;
   border-radius: 10px;
 }
+
+.gallery {
+  width: inherit;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  gap: 10px;
+  margin: 50px 100px;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gallery img {
+    width: 95%;
+    padding: 0.2rem;
+  }
+}
