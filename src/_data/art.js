@@ -13,10 +13,11 @@ module.exports = {
       image: "assets/images/lord/the_book.jpg",
     },
     {
-      name: "Collection 03",
-      desc: "Collection 03 desc",
-      url: "art/collection03",
-      image: "assets/images/collection03.jpg",
+      name: "Μagical creatures of the Pamvotis Lake",
+      alt_name: "Magical creatures",
+      desc: "In the eastern side of the Pamvotis Lake, in a Town of Greece called Ioannina is the homeland of the magical creatures of Drabatova.",
+      url: "/en/art/drabatova",
+      image: "assets/images/drabatova/mirto.jpg",
     },
     {
       name: "Collection 04",

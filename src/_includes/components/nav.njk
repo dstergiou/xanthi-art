@@ -24,7 +24,12 @@
     </li>
     {% for item in art[locale] %}
       <li>
-        <a href="{{ item.url }}">{{ item.name }}
+        <a href="{{ item.url }}">
+          {% if item.alt_name %}
+            {{ item.alt_name }}
+          {% else %}
+            {{ item.name }}
+          {% endif %}
         </li>
       {% endfor %}
       <li>
