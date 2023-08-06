@@ -37,6 +37,8 @@ collection_images:
     desc: The beast is inside us<br />With bright yellow and expressionistic touches I render the unknown, the beast that was always inside them.
 ---
 
+<img src="/assets/images/lord/the_artist.jpg" class="left image">
+
 All of the paintings in this session, are my artistic approach to human existence based on the Nobel
 prized novel “The Lord of the flies” by William Golding.
 
