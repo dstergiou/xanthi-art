@@ -7,10 +7,10 @@ module.exports = {
       image: "assets/images/23days/the_ballerina.jpg",
     },
     {
-      name: "Collection 02",
-      desc: "Collection 02 desc",
-      url: "art/collection02",
-      image: "assets/images/collection02.jpg",
+      name: "The Lord of the Flies",
+      desc: "My artistic approach to human existence based on the Nobel-prize winning novel 'The Lord of the flies' by William Golding.",
+      url: "/en/art/lord",
+      image: "assets/images/lord/the_book.jpg",
     },
     {
       name: "Collection 03",
