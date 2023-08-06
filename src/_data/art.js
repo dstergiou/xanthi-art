@@ -19,12 +19,6 @@ module.exports = {
       url: "/en/art/drabatova",
       image: "assets/images/drabatova/mirto.jpg",
     },
-    {
-      name: "Collection 04",
-      desc: "Collection 04 desc",
-      url: "art/collection04",
-      image: "assets/images/collection04.jpg",
-    },
   ],
   sv: [
     {

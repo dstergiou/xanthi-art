@@ -5,7 +5,7 @@ const path = require("path");
 const imageShortCode = async (
   src,
   alt,
-  className = undefined,
+  cls,
   widths = [300, 400, 600, 800, 1600],
   formats = ["webp", "jpeg"],
   sizes = "100vw"
@@ -25,6 +25,7 @@ const imageShortCode = async (
 
   const imageAttributes = {
     alt,
+    class: cls,
     sizes,
     loading: "lazy",
     decoding: "async",

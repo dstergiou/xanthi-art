@@ -37,9 +37,7 @@ collection_images:
     desc: Zozo (Ζωζώ)
 ---
 
-<!-- {% image "assets/images/drabatova/_cover.jpg", "Cover" %} -->
-
-<!-- <img src="/assets/images/drabatova/_cover.jpg" class="left image"> -->
+{% image "assets/images/drabatova/_cover.jpg", "Cover", "left image side_image" %}
 
 In the eastern side of the Pamvotis Lake, in a Town of Greece called Ioannina is the homeland of the magical creatures of Drabatova.
 

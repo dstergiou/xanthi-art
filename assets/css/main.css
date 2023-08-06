@@ -1824,3 +1824,8 @@ body.is-menu-visible #menu .inner {
     justify-content: center;
   }
 }
+
+.side_image {
+  width: auto;
+  height: auto;
+}
