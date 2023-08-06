@@ -4,7 +4,7 @@ title: "Lord of the Flies"
 collection: "lord"
 lang: "en"
 locale: "en"
-banner_image: assets/images/23days/the_ballerina.jpg
+banner_image: assets/images/lord/the_book.jpg
 desc: "My artistic approach to human existence based on the Nobel-prize winning novel 'The Lord of the flies' by William Golding."
 
 collection_images:
