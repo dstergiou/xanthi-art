@@ -4,6 +4,7 @@ title: "Events"
 lang: "en"
 locale: "en"
 desc: "Past and future expos"
+image: /assets/images/expo.jpg
 
 collection: expos
 
