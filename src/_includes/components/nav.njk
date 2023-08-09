@@ -29,10 +29,12 @@
       <a href="/{{ page.lang }}/expos/">{{ site[locale].menu_expos }}</a>
     </li>
   </ul>
-  <ul class="links">
+  <ul class="actions stacked">
     <li>
-      <a href="#" style="pointer-events: none; cursor: default;">Collections</a>
+      <a href="#" class="button primary fit" style="pointer-events: none; cursor: default;">Collections</a>
     </li>
+  </ul>
+  <ul class="links">
     {% for item in art[locale] %}
       <li>
         <a href="{{ item.url }}/">
