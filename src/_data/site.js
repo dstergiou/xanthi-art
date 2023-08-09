@@ -18,5 +18,5 @@ module.exports = {
     menu_about: "Σχετικα με μενα",
   },
   language_menu: false,
-  version: 21,
+  version: 22,
 };
