@@ -13,23 +13,18 @@
             <h1>{{ title }}</h1>
           </header>
           <div class="content">
-            <p>Lorem ipsum dolor sit amet nullam consequat<br/> sed veroeros. tempus adipiscing nulla.</p>
+            <p>{{ desc }}</p>
           </div>
         </div>
       </section>
       <!-- Main -->
-      <div
-        id="main">
-        <!-- One -->
+      <div id="main">
         <section id="one">
           <div class="inner">
             <header class="major">
               <h2>Upcoming Events</h2>
             </header>
-            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus
-              pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque
-              lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna
-              sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+            {{ content | safe }}
           </div>
         </section>
         <section id="two">
@@ -47,42 +42,32 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td>Item1</td>
-                    <td>Ante turpis integer aliquet porttitor.</td>
-                    <td>29.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item2</td>
-                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                    <td>19.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item3</td>
-                    <td>
-                      Morbi faucibus arcu accumsan lorem.</td>
-                    <td>29.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item4</td>
-                    <td>Vitae integer tempus condimentum.</td>
-                    <td>19.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item5</td>
-                    <td>Ante turpis integer aliquet porttitor.</td>
-                    <td>29.99</td>
-                  </tr>
+                  {% for item in collection_expos %}
+                    <tr>
+                      <td>
+                        {{ item.date }}
+                      </td>
+                      <td>
+                        {{ item.desc }}
+                      </td>
+                      <td>
+                        <a href="{{ item.link }}" class="">{{ item.link }}</a>
+                      </td>
+                    </tr>
+                  {% endfor %}
                 </tbody>
-                <tfoot>
-                  <tr>
-                    <td colspan="2"></td>
-                    <td>100.00</td>
-                  </tr>
-                </tfoot>
               </table>
             </div>
           </div>
+          <section id="three" class="">
+            <div class="gallery inner">
+              {% for item in collection_images %}
+                <a href="/{{ item.img }}" data-lightbox="{{ collection }}" data-title="{{ item.desc }}" class="image">
+                  {% image item.img , item.desc %}
+                </a>
+              {% endfor %}
+            </div>
+          </section>
         </div>
         {% include "components/footer.njk" %}
       </div>

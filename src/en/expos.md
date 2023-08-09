@@ -4,6 +4,28 @@ title: "Events"
 lang: "en"
 locale: "en"
 permalink: "/en/expos"
+desc: "Past and future expos"
+
+collection: expos
+
+collection_expos:
+  - date: Oct 2022
+    desc: Magical expo
+    link: https://twitter.com
+  - date: Sep 2021
+    desc: Super Expo
+    link: https://facebook.com
+  - date: Aug 2020
+    desc: Fantastic expo
+    link: https://google.com
+
+collection_images:
+  - name: princess
+    img: assets/images/23days/my_princess.jpg
+    desc: My princess
+  - name: dont_leave
+    img: assets/images/23days/dont_leave.jpg
+    desc: Don't leave
 ---
 
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
+In the spring of 2023, Nationalmuseum will present an exhibition showing American crafts, from the 1950s up until today. Everything from small pieces of jewelry to furniture and impressive wall pieces and textiles. The collection of objets have been assembled by former gallerist and craft educator Helen W. Drutt English.
