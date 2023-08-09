@@ -17,7 +17,6 @@
           </div>
         </div>
       </section>
-      <!-- Main -->
       <div id="main">
         <section id="one">
           <div class="inner">
@@ -59,18 +58,18 @@
               </table>
             </div>
           </div>
-          <section id="three" class="">
-            <div class="gallery inner">
-              {% for item in collection_images %}
-                <a href="/{{ item.img }}" data-lightbox="{{ collection }}" data-title="{{ item.desc }}" class="image">
-                  {% image item.img , item.desc %}
-                </a>
-              {% endfor %}
-            </div>
-          </section>
-        </div>
-        {% include "components/footer.njk" %}
+        </section>
+        <section id="three" class="">
+          <div class="gallery inner">
+            {% for item in collection_images %}
+              <a href="/{{ item.img }}" data-lightbox="{{ collection }}" data-title="{{ item.desc }}" class="image">
+                {% image item.img , item.desc %}
+              </a>
+            {% endfor %}
+          </div>
+        </section>
       </div>
-      {% include "components/js.njk" %}</body>
-  </body>
-</html>
+      {% include "components/footer.njk" %}
+    </div>
+    {% include "components/js.njk" %}</body>
+</html></body></html>
