@@ -3,7 +3,6 @@ layout: "layouts/index.njk"
 title: "Xanthi Art | Home"
 lang: "en"
 locale: "en"
-permalink: "/en/"
 
 banner_title: "Hi, my name is Xanthi"
 banner_text1: "This website shows the paintings I created for the past 20 years."

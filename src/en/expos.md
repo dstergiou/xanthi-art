@@ -3,7 +3,6 @@ layout: "layouts/expos.njk"
 title: "Events"
 lang: "en"
 locale: "en"
-permalink: "/en/expos"
 desc: "Past and future expos"
 
 collection: expos
