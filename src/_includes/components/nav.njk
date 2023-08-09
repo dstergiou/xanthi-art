@@ -22,18 +22,21 @@
     <li>
       <a href="/{{ page.lang }}/">{{ site[locale].menu_home }}</a>
     </li>
+    <li>
+      <a href="/{{ page.lang }}/about">{{ site[locale].menu_about }}</a>
+    </li>
+    <li>
+      <a href="/{{ page.lang }}/expos">{{ site[locale].menu_expos }}</a>
+    </li>
+  </ul>
+  <h4>Collections</h4>
+  <ul class="links">
     {% for item in art[locale] %}
       <li>
-        <a href="{{ item.url }}">
-          {% if item.alt_name %}
-            {{ item.alt_name }}
-          {% else %}
-            {{ item.name }}
-          {% endif %}
-        </li>
-      {% endfor %}
-      <li>
-        <a href="/{{ page.lang }}/about">{{ site[locale].menu_about }}</a>
+        <a href="{{ item.url }}/">
+          {{ item.alt_name if item.alt_name else item.name }}
+        </a>
       </li>
-    </ul>
-  </nav>
+    {% endfor %}
+  </ul>
+</nav>

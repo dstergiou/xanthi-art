@@ -5,6 +5,7 @@ module.exports = {
     menu_title: "Menu",
     menu_home: "Home",
     menu_about: "About me",
+    menu_expos: "Events",
   },
   sv: {
     menu_title: "Meny",

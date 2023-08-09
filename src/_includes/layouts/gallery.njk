@@ -27,7 +27,7 @@
             <p>{{ content | safe }}</p>
           </div>
         </section>
-        <section id="two" class="spotlights">
+        <section id="two" class="">
           <div class="gallery inner">
             {% for item in collection_images %}
               <a href="/{{ item.img }}" data-lightbox="{{ collection }}" data-title="{{ item.desc }}" class="image">
