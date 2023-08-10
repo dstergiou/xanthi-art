@@ -5,6 +5,7 @@ lang: "en"
 locale: "en"
 desc: "Past and future expos"
 image: /assets/images/expo.jpg
+future_expo: false
 
 collection: expos
 
