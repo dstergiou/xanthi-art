@@ -1,9 +1,9 @@
 ---
 layout: "layouts/expos.njk"
-title: "Events"
+title: "Exhibitions"
 lang: "en"
 locale: "en"
-desc: "Past and future expos"
+desc: "Past and future exhibitions"
 image: /assets/images/expo.jpg
 future_expo: false
 
