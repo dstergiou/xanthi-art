@@ -33,29 +33,29 @@ collection_images:
     desc:
 
 collection_expos:
-  - date: 2012
-    desc: 23 Days (Solo)
-    location: University of Ioannina, Greece
-    icon: fa-user
   - date: 2017
     desc: Approaching childhood through the study of the “Lord of the Flies”
     location: University of Ioannina, Greece
     icon: fa-user
-  - date: 2009
-    desc: 25 Gold Wishes (Group)
-    location: Gallery of French Greek Union
-    icon: fa-people-group
-  - date: 2010
-    desc: The Crop (Group)
-    location: Olive Festival, Selasia
-    icon: fa-people-group
   - date: 2012
-    desc: Women and Colours (Group)
+    desc: 23 Days (Solo)
     location: University of Ioannina, Greece
+    icon: fa-user
+  - date: 2023
+    desc: Contemporary visual approaches to the Karsaniki stitch, traditional embroidery, of Lefkas
+    location: Gallery "Theodoros Stamos", Lefkas, Greece
     icon: fa-people-group
-  - date: 2014
-    desc: Fear (Group)
-    location: University of Ioannina, Greece
+  - date: 2023
+    desc: Traditional embroidery of Lefkas and contemporary artistic creation
+    location: Folk museum of Aggelikis Hatzjmichali, Plaka Athens, Greece
+    icon: fa-people-group
+  - date: 2021
+    desc: Utopia of Colors
+    location: Time of Art gallery, Athens, Greece
+    icon: fa-people-group
+  - date: 2021
+    desc: Women Art
+    location: Culture 365,Virtual Exhibition
     icon: fa-people-group
   - date: 2019
     desc: Observe Self
@@ -77,21 +77,21 @@ collection_expos:
     desc: MINIATURES Project, vol II
     location: Myro Gallery, Thessaloniki, Greece
     icon: fa-people-group
-  - date: 2021
-    desc: Utopia of Colors
-    location: Time of Art gallery, Athens, Greece
+  - date: 2014
+    desc: Fear (Group)
+    location: University of Ioannina, Greece
     icon: fa-people-group
-  - date: 2021
-    desc: Women Art
-    location: Culture 365,Virtual Exhibition
+  - date: 2012
+    desc: Women and Colours (Group)
+    location: University of Ioannina, Greece
     icon: fa-people-group
-  - date: 2023
-    desc: Contemporary visual approaches to the Karsaniki stitch, traditional embroidery, of Lefkas
-    location: Gallery "Theodoros Stamos", Lefkas, Greece
+  - date: 2010
+    desc: The Crop (Group)
+    location: Olive Festival, Selasia
     icon: fa-people-group
-  - date: 2023
-    desc: Traditional embroidery of Lefkas and contemporary artistic creation
-    location: Folk museum of Aggelikis Hatzjmichali, Plaka Athens, Greece
+  - date: 2009
+    desc: 25 Gold Wishes (Group)
+    location: Gallery of French Greek Union
     icon: fa-people-group
 ---
 
