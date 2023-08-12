@@ -37,14 +37,18 @@
               <table class="alt">
                 <thead>
                   <tr>
+                    <th>&nbsp;</th>
                     <th>Date</th>
                     <th>Description</th>
-                    <th>Link</th>
+                    <th>Location</th>
                   </tr>
                 </thead>
                 <tbody>
                   {% for item in collection_expos %}
                     <tr>
+                      <td>
+                        <i class="fa-solid {{ item.icon }}"></i>
+                      </td>
                       <td>
                         {{ item.date }}
                       </td>
@@ -52,16 +56,15 @@
                         {{ item.desc }}
                       </td>
                       <td>
-                        <a href="{{ item.link }}" class="">{{ item.link }}</a>
-                      </td>
+                        {{ item.location }}</td>
                     </tr>
-                  {% endfor %}
-                </tbody>
-              </table>
-            </div>
+                  </tbody>
+                {% endfor %}
+              </tbody>
+            </table>
           </div>
-        </section>
-        <section id="three" class="">
+        </div>
+        <section id="three">
           <div class="gallery inner">
             {% for item in collection_images %}
               <a href="/{{ item.img }}" data-lightbox="{{ collection }}" data-title="{{ item.desc }}" class="image">
@@ -70,8 +73,7 @@
             {% endfor %}
           </div>
         </section>
-      </div>
-      {% include "components/footer.njk" %}
-    </div>
-    {% include "components/js.njk" %}</body>
-</html></body></html>
+        {% include "components/footer.njk" %}</div>
+      {% include "components/js.njk" %}</body>
+  </body>
+</html>
