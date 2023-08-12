@@ -1,6 +1,6 @@
 module.exports = {
   top_left_site_banner1: "Xanthi Art",
-  top_left_site_banner2: "By Xanthi",
+  top_left_site_banner2: "  ",
   en: {
     menu_title: "Menu",
     menu_home: "Home",
