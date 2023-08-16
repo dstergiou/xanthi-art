@@ -12,25 +12,25 @@ collection: expos
 collection_images:
   - name: 001
     img: assets/images/expo/001.jpg
-    desc:
+    desc: Contemporary visual approaches to the Karsaniki stitch, traditional embroidery, of Lefkas<br/>Art gallery “Θεόδωρος Στάμος”<br/>Lefkas, Greece, 2023
   - name: 002
     img: assets/images/expo/002.jpg
-    desc:
+    desc: Traditional  embroidery of Lefkas  and contemporary artistic creation<br/>Folk museum of Aggelikis Hatzjmichali<br/>Plaka Athens, 2023
   - name: 003
     img: assets/images/expo/003.jpg
     desc:
   - name: 004
     img: assets/images/expo/004.jpg
-    desc:
+    desc: Song of Thrace<br/>Art space of Municipality of Komotini<br/>Komotini, Greece, 2019
   - name: 005
     img: assets/images/expo/005.jpg
-    desc:
+    desc: La vie en Rose<br/>Gallery of Pireaus Bank<br/>Athens and Thessaloniki, Greece, 2019
   - name: 006
     img: assets/images/expo/006.jpg
-    desc:
+    desc: 25 gold wishes<br>Gallery of French Greek Union<br/>Athens, Greece, 2009
   - name: 007
     img: assets/images/expo/007.jpg
-    desc:
+    desc: 25 gold wishes<br>Gallery of French Greek Union<br/>Athens, Greece, 2009
 
 collection_expos:
   - date: 2017
