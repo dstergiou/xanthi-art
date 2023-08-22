@@ -31,6 +31,12 @@ module.exports = {
       url: "/en/art/people1",
       image: "assets/images/people1/Babyboy.jpg",
     },
+    {
+      name: "Tulips",
+      desc: "My tulips are painted in a way that could be the portraits of the persons that I dedicated them to.",
+      url: "/en/art/tulips",
+      image: "assets/images/tulips/happy.jpg",
+    },
   ],
   sv: [
     {
