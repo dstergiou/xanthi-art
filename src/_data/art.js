@@ -19,6 +19,12 @@ module.exports = {
       url: "/en/art/drabatova",
       image: "assets/images/drabatova/mirto.jpg",
     },
+    {
+      name: "Portaits",
+      desc: "Portraits of people I met at some point of my life.",
+      url: "/en/art/portraits",
+      image: "assets/images/portraits/Doreta.jpg",
+    },
   ],
   sv: [
     {
