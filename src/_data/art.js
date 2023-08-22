@@ -25,6 +25,12 @@ module.exports = {
       url: "/en/art/portraits",
       image: "assets/images/portraits/Doreta.jpg",
     },
+    {
+      name: "People I",
+      desc: "Charcoal on transparent paper.",
+      url: "/en/art/people1",
+      image: "assets/images/people1/Babyboy.jpg",
+    },
   ],
   sv: [
     {
