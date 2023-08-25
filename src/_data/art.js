@@ -79,6 +79,12 @@ module.exports = {
       url: "/en/art/zodiac",
       image: "assets/images/zodiac/the_project.jpg",
     },
+    {
+      name: "Goblins",
+      desc: "A Greek myth talks about goblins. They are malevolent creatures that live in the bowels of the earth and all the time they are sawing the tree on which the earth rests.",
+      url: "/en/art/goblins",
+      image: "assets/images/goblins/goblins_on_stage_1.jpg",
+    },
   ],
   sv: [
     {
