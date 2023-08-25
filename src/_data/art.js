@@ -73,6 +73,12 @@ module.exports = {
       url: "/en/art/ballerinas",
       image: "assets/images/ballerinas/cleo.jpg",
     },
+    {
+      name: "Zodiac Signs",
+      desc: "A mini project on baby zodiac signs, all inspired by my babies.",
+      url: "/en/art/zodiac",
+      image: "assets/images/zodiac/the_project.jpg",
+    },
   ],
   sv: [
     {
