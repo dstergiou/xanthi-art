@@ -6,9 +6,11 @@
     <title>Redirecting according to language</title>
   </head>
   <body>
-    <!-- Redirecting to according to browser language -->
     <script>
-      var availableLanguages = ["en", "el", "se"];
+      /*
+        for future reference
+        var availableLanguages = ["en", "el", "se"]; */
+      var availableLanguages = ["en"];
       var locale = [
         ...(window.navigator.languages || []),
         window.navigator.language,
