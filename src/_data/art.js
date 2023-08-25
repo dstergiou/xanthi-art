@@ -67,6 +67,12 @@ module.exports = {
       url: "/en/art/baby",
       image: "assets/images/baby/cleo.jpg",
     },
+    {
+      name: "Ballerinas",
+      desc: "Endless hours of dancing,rehearsing, anxiety, joy and satisfaction.",
+      url: "/en/art/ballerinas",
+      image: "assets/images/ballerinas/cleo.jpg",
+    },
   ],
   sv: [
     {
