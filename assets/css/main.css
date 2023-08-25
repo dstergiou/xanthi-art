@@ -3553,6 +3553,10 @@ body.is-preload #banner > .inner {
   width: 18em;
 }
 
+#menu .inner::-webkit-scrollbar {
+  display: none;
+}
+
 #menu .inner > :first-child {
   margin-top: 2em;
 }
