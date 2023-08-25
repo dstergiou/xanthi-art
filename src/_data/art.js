@@ -61,6 +61,12 @@ module.exports = {
       url: "/en/art/minis",
       image: "assets/images/minis/Xanthi.jpg",
     },
+    {
+      name: "I'm just a baby",
+      desc: "All art pieces in this section are inspired by my babies and motherhood.",
+      url: "/en/art/baby",
+      image: "assets/images/baby/cleo.jpg",
+    },
   ],
   sv: [
     {
