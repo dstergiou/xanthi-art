@@ -32,6 +32,13 @@ module.exports = {
       image: "assets/images/people1/Babyboy.jpg",
     },
     {
+      name: "People II",
+      desc: "Beloved persons of mine that have a strong soul and managed to get through difficult situations.",
+      url: "/en/art/people2",
+      image: "assets/images/people2/Katarina.jpg",
+    },
+
+    {
       name: "Tulips",
       desc: "My tulips are painted in a way that could be the portraits of the persons that I dedicated them to.",
       url: "/en/art/tulips",
