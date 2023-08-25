@@ -55,6 +55,12 @@ module.exports = {
       url: "/en/art/vassilis",
       image: "assets/images/vassilis/VassilisK.jpg",
     },
+    {
+      name: "Mini Portraits",
+      desc: "Portraits of people I met during the period I studied art.",
+      url: "/en/art/minis",
+      image: "assets/images/minis/Xanthi.jpg",
+    },
   ],
   sv: [
     {
