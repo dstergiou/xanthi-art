@@ -49,6 +49,12 @@ module.exports = {
       url: "/en/art/innerself",
       image: "assets/images/innerself/i_am_the_others.jpg",
     },
+    {
+      name: "Vassilis",
+      desc: "Portraits of Vassilis, my husband, who is supporting me in this journey in art from the beginning.",
+      url: "/en/art/vassilis",
+      image: "assets/images/vassilis/VassilisK.jpg",
+    },
   ],
   sv: [
     {
