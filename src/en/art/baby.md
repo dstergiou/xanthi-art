@@ -47,6 +47,15 @@ collection_images:
   - name: vassilis
     img: assets/images/baby/vassilis.jpg
     desc: Vassilis
+  - name: woke_up
+    img: assets/images/baby/just_woke_up.jpg
+    desc: Just woke up
+  - name: beach
+    img: assets/images/baby/on_the_beach.jpg
+    desc: On the beach
+  - name: cars
+    img: assets/images/baby/playing_with_the_cars.jpg
+    desc: Playing with the cars
 ---
 
 All art pieces in this section are inspired by my babies and motherhood.

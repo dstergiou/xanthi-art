@@ -8,9 +8,6 @@ banner_image: assets/images/tulips/happy.jpg
 desc: "My tulips are painted in a way that could be the portraits of the persons that I dedicated them to."
 
 collection_images:
-  - name: agapi
-    img: assets/images/tulips/agapi.jpg
-    desc: Agapi's Tulip
   - name: christmas
     img: assets/images/tulips/christmas.jpg
     desc: The Christmas Tulip

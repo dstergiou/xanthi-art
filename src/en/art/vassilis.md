@@ -17,6 +17,9 @@ collection_images:
   - name: vassilis_photo
     img: assets/images/vassilis/Vassilis_photo.jpg
     desc: Vassilis Collage
+  - name: vassilios
+    img: assets/images/vassilis/vassilios.jpg
+    desc: Vassilios
 ---
 
 Portraits of Vassilis, my husband, who is supporting me in this journey in art from the beginning.
