@@ -85,6 +85,12 @@ module.exports = {
       url: "/en/art/goblins",
       image: "assets/images/goblins/goblins_on_stage_1.jpg",
     },
+    {
+      name: "Charcoal",
+      desc: "There are times when I get tired of the intensity of the color and then I turn to my other favorite media beside acrylics, charcoal on transparency paper",
+      url: "/en/art/charcoal",
+      image: "assets/images/charcoal/in_the_woods.jpg",
+    },
   ],
   sv: [
     {
