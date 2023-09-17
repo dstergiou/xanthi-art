@@ -16,3 +16,7 @@ The figures in my works are children but at the same time they are grown – ups
 I also paint mythical creatures from my fantasy worlds and tulips, that are another kind of portrait, one for each special person.
 
 As my art is dynamic and get inspired by my every day, I am eager to see what’s next in my painting.
+
+If you are interested in purchasing an art piece my collection can be found on [Saatchi Art](https://www.saatchiart.com/account/profile/2303373).
+
+If you would like to commission art work, you can reach out to me via [Mail](mailto:xtoutoun@uoi.gr), [Facebook](https://www.facebook.com/xanthi.toutounzoglou), [Instagram](https://www.instagram.com/xanthi_toutounzoglou_art) and [TikTok](https://www.tiktok.com/@kcanthi).
