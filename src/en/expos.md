@@ -38,7 +38,7 @@ collection_expos:
     location: University of Ioannina, Greece
     icon: fa-user
   - date: 2012
-    desc: 23 Days (Solo)
+    desc: 23 Days
     location: University of Ioannina, Greece
     icon: fa-user
   - date: 2023
@@ -78,19 +78,19 @@ collection_expos:
     location: Myro Gallery, Thessaloniki, Greece
     icon: fa-people-group
   - date: 2014
-    desc: Fear (Group)
+    desc: Fear
     location: University of Ioannina, Greece
     icon: fa-people-group
   - date: 2012
-    desc: Women and Colours (Group)
+    desc: Women and Colours
     location: University of Ioannina, Greece
     icon: fa-people-group
   - date: 2010
-    desc: The Crop (Group)
+    desc: The Crop
     location: Olive Festival, Selasia
     icon: fa-people-group
   - date: 2009
-    desc: 25 Gold Wishes (Group)
+    desc: 25 Gold Wishes
     location: Gallery of French Greek Union
     icon: fa-people-group
 ---
